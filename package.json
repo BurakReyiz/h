@@ -1,28 +1,25 @@
 {
-  "name": "hello-node",
-  "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
-  "main": "server.js",
+  "name": "discord-music-bot",
+  "author": "Klanter",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "fastify": "^3.14.1",
-    "fastify-formbody": "^5.0.0",
-    "fastify-static": "^4.0.0",
-    "handlebars": "^4.7.7",
-    "point-of-view": "^4.14.0"
-  },
-  "engines": {
-    "node": "12.x"
+    "start": "node app.js",
+    "test": "node app.js"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+    "type": "git",
+    "url": "a"
   },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-player": "^3.3.2",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.3.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
 }
